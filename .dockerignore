@@ -1,0 +1,39 @@
+# Docker ignore file - exclude unnecessary files from build context
+.git
+.gitignore
+.env
+*.log
+*.md
+README.md
+CHANGELOG.md
+*.txt
+
+# Test files
+test-*.jpg
+test-*.mp4
+test-*.mp3
+benchmark.sh
+test-concurrent.sh
+
+# Uploaded files
+uploads/*
+
+# Build artifacts
+object-storage-server
+*.exe
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (exclude doc files but keep API docs)
+*.pdf
+*.docx
+DOC.md
+DOCUMENTATION.md

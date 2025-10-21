@@ -1,0 +1,13 @@
+.env
+uploads/*
+!uploads/.gitkeep
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+.DS_Store
+test_*.go
+object-storage-server
